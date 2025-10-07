@@ -1,0 +1,18 @@
+{
+  "buildCommand": "bun run build",
+  "devCommand": "bun run dev",
+  "installCommand": "bun install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "functions": {
+    "src/app/**/*.tsx": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://jcmmoseffrrkifsbbkcg.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpjbW1vc2VmZnJya2lmc2Jia2NnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk4MjUwMDUsImV4cCI6MjA3NTQwMTAwNX0.khjEOesh2DHjrtnpqg91vGfcp6dN6r9fbIrb9xoU40s",
+    "ELEVENLABS_API_KEY": "sk_2c303ce55a3742d351974a94adef628cc1082f97c7a33d19",
+    "OPENAI_API_KEY": "@openai_api_key"
+  }
+}
